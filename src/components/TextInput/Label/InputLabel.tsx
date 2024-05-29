@@ -93,7 +93,7 @@ const InputLabel = (props: InputLabelProps) => {
           baseLabelTranslateY !== 0
             ? labeled.interpolate({
                 inputRange: [0, 1],
-                outputRange: [baseLabelTranslateY, 0],
+                outputRange: [-15, 8],
               })
             : 0,
       },
